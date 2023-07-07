@@ -1,3 +1,5 @@
+JavaScript Object and Internal Representation
+
 In JavaScript, objects are like containers that hold related information.
 They consist of key-value pairs, where each key is a unique identifier and its corresponding value can be any type of data.
 
