@@ -1,0 +1,13 @@
+HTTP 1.1 
+It was released in 1997.
+It uses text based commands for HTTP requests.
+Only one request-response transaction can be processed at a time per TCP connection.
+It does not compress headers, resulting in redundant header information being sent with each request and response.
+It requires the browser to explicitly request each resource it needs. 
+
+HTTP 2
+ It was released in Feb. 2015 by IETF.
+ It works on the binary protocol.
+ It allows multiplexing so one TCP connection is required for multiple requests.
+ It uses header compression in order to reduce overhead.
+ It allows servers to "push" responses into client caches proactively.

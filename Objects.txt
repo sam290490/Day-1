@@ -1,0 +1,14 @@
+In JavaScript, objects are like containers that hold related information.
+They consist of key-value pairs, where each key is a unique identifier and its corresponding value can be any type of data.
+
+Object values are written as name : value pairs (name and value separated by a colon).
+Example : const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+Objects can be created  by two approach: 
+Using an Object Literal : An object literal is a list of name:value pairs (like age:50) inside curly braces {}.
+Using the JavaScript Keyword new : Create a new JavaScript object using new Object()
+
+internal representation of objects in JavaScript:
+A JavaScript object is a collection of unordered properties.Properties can hold different types of data.
+Properties are the values associated with a JavaScript object. Properties can usually be created ,read ,update and deleted.
+The syntax for accessing the property of an object are objectName.property  or objectName["property"]
